@@ -1,8 +1,13 @@
 aid: beyond-meat
 name: Beyond Meat
-description: 'Beyond Meat is a company surfaced as a portfolio company of kleiner-perkins, obvious-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Beyond Meat, Inc. is a Los Angeles-based producer of plant-based meat substitutes founded
+  in 2009 and publicly traded on Nasdaq (BYND). The company makes plant-protein versions of beef, pork,
+  and poultry products, including the Beyond Burger, Beyond Sausage, Beyond Beef, and Beyond Chicken,
+  distributed across grocery retail and foodservice channels worldwide. Beyond Meat operates as a consumer
+  packaged-goods brand rather than a technology or developer-platform company; it publishes a marketing
+  and e-commerce website, product and recipe catalogs, a newsroom, and an investor-relations presence,
+  but does not offer a public developer API. This profile was surfaced as a portfolio company of Kleiner
+  Perkins and Obvious Ventures and added to the API Evangelist network as a company record.'
 url: https://raw.githubusercontent.com/api-evangelist/beyond-meat/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +16,29 @@ x-backed-by:
 - obvious-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.beyondmeat.com/en-US/icons/icon-512x512.png
 tags:
 - Company
 - Consumer
+- Food
+- Plant-Based
+- CPG
+- Sustainability
+- Retail
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +46,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/beyond-meat-domain-security.yml
 - type: Website
   url: https://www.beyondmeat.com
+- type: Blog
+  url: https://www.beyondmeat.com/en-US/newsroom/
+- type: PrivacyPolicy
+  url: https://www.beyondmeat.com/en-US/privacy-policy/
+- type: TermsOfService
+  url: https://www.beyondmeat.com/en-US/terms-of-use/
+- type: Products
+  url: https://www.beyondmeat.com/en-US/products/
+- type: Recipes
+  url: https://www.beyondmeat.com/en-US/recipes/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
